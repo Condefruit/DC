@@ -4,7 +4,7 @@ All about m'illustrations
 Still testin
 
 waiting...
-second test ... waiting...
+second test ... waiting... you'll be redirected
  
 <html>
 <head>
