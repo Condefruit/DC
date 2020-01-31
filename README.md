@@ -10,7 +10,7 @@ second test
 <head>
 <title>Redirection en HTML</title>
  
-<meta http-equiv="refresh" content="5; URL=https://condefruit.github.io/DC/elements.html">
+<meta http-equiv="refresh" content="0; URL=https://condefruit.github.io/DC/elements.html">
 </head>
  
 <body>
