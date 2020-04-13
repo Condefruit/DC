@@ -1,19 +1,17 @@
-<!DOCTYPE HTML>
-
-<!-- Version de base -->
-
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>test satire</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {	
- /* CSS */
-	.row > .column {
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
   padding: 0 8px;
 }
 
@@ -23,10 +21,9 @@ body {
   clear: both;
 }
 
-	/* Create four equal columns that floats next to eachother */
 .column {
   float: left;
-  width: 24%;
+  width: 25%;
 }
 
 /* The Modal (background) */
@@ -40,7 +37,7 @@ body {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(230, 235, 237, 0.25);
+  background-color: black;
 }
 
 /* Modal Content */
@@ -70,7 +67,6 @@ body {
   cursor: pointer;
 }
 
- /* Hide the slides by default */
 .mySlides {
   display: none;
 }
@@ -122,7 +118,6 @@ img {
   margin-bottom: -4px;
 }
 
- /* Caption text */
 .caption-container {
   text-align: center;
   background-color: black;
@@ -150,16 +145,13 @@ img.hover-shadow {
 <body>
 
 <h2 style="text-align:center">Lightbox</h2>
-	
 
-<!-- HTLM / Images used to open the lightbox -->  
-  
 <div class="row">
   <div class="column">
     <img src="macronretraite24.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="tofm4.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    <img src="macronretraite24.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
   </div>
   <div class="column">
     <img src="macronretraite24.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
@@ -169,8 +161,6 @@ img.hover-shadow {
   </div>
 </div>
 
-<!-- HTML / The Modal/Lightbox -->  
-  
 <div id="myModal" class="modal">
   <span class="close cursor" onclick="closeModal()">&times;</span>
   <div class="modal-content">
@@ -182,7 +172,7 @@ img.hover-shadow {
 
     <div class="mySlides">
       <div class="numbertext">2 / 4</div>
-      <img src="tofm4.jpg" style="width:100%">
+      <img src="macronretraite24.png" style="width:100%">
     </div>
 
     <div class="mySlides">
@@ -195,21 +185,19 @@ img.hover-shadow {
       <img src="macronretraite24.png" style="width:100%">
     </div>
     
-    <!-- HTML / Next/previous controls -->
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-      <!-- HTML / Caption text -->
     <div class="caption-container">
       <p id="caption"></p>
     </div>
 
-      <!-- HTML / Thumbnail image controls -->
+
     <div class="column">
       <img class="demo cursor" src="macronretraite24.png" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
     </div>
     <div class="column">
-      <img class="demo cursor" src="tofm4.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+      <img class="demo cursor" src="macronretraite24.png" style="width:100%" onclick="currentSlide(2)" alt="Snow">
     </div>
     <div class="column">
       <img class="demo cursor" src="macronretraite24.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
@@ -219,31 +207,12 @@ img.hover-shadow {
     </div>
   </div>
 </div>
-	
-	<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Get in touch</h2>
-									</header>
-							<!--		<p>Hello.</p>		-->
-									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="#">danielchastanet@gmail.com</a></li>
-										<!-- <li class="icon solid fa-phone">(000) 000-0000</li> -->
-										<li class="icon solid fa-home"> Paris France <br /></li>
-									</ul>
-								</section>
 
-  <!-- JAVA -->
-
-	<script>
-	
-	
-  // Open the Modal
+<script>
 function openModal() {
   document.getElementById("myModal").style.display = "block";
 }
 
-  // Open the Modal
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
 }
@@ -251,12 +220,10 @@ function closeModal() {
 var slideIndex = 1;
 showSlides(slideIndex);
 
-  // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-  // Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
