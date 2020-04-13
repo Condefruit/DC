@@ -4,10 +4,47 @@
 -->
 <html>
 	<head>
-		<title>Welcome to Condefruit's Portfolio</title>
+		<title>Random drawings</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		
+		
+		<style>
+			
+		.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.col-4:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}	
+			
+			
+			
+		</style>
+		
 	</head>
 	<body class="is-preload">
 
@@ -39,20 +76,12 @@
 
 									<!-- Content -->
 										<h2 id="content">Whatever :)</h2>
-									
-									<!-- The <hr> tag defines a thematic break in an HTML page (e.g. a shift of topic) / 
-									The <hr> element is used to separate content (or define a change) in an HTML page.
-									example, passage entre HTML et CSS, ça ne fait qu'une ligne au final ? -->
+
 									<hr class="major" /> 
 
 
-			
-								
-
 												<!-- Image -->												
 
-													<h4>Satire</h4>
-													<span class="image fit"><img src="images/tofm4.jpg" alt="" /></span>
 													<div class="box alt">
 														<div class="row gtr-50 gtr-uniform">
 															<div class="col-4"><span class="image fit"><img src="images/tofm4.jpg" alt="" /></span></div>
@@ -123,30 +152,7 @@
 									</ul>
 								</nav>
 
-			<!-- Section -->
-			<!--	<section>
-					<header class="major">
-						<h2>Ante interdum</h2>
-				</header>
-					<div class="mini-posts">
-					<article>
-						<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-							<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-					</article>
-					<article>
-						<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
-						<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-					</article>
-					<article>
-						<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
-						<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-					</article>
-					</div>
-						<ul class="actions">
-							<li><a href="#" class="button">More</a></li>
-								</ul>
-						</section>
-			-->
+			
 							<!-- Section -->
 								<section>
 									<header class="major">
