@@ -1,9 +1,9 @@
 .gallery{
-  margin; 10px 50px;
+  margin: 10px 50px;
 }
 
 .gallery img {
-  transition: 0.5s;
+  transition: 1s;
   padding; 15px;
   width: 200px;
 }
