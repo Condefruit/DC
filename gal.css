@@ -9,6 +9,6 @@
 }
 
 .gallery img:hover {
-  filter: grayscale(100%);
+  filter: grayscale(70%);
   transform: scale(1.1);
 }
