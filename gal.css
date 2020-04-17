@@ -1,10 +1,10 @@
 .gallery{
-  margin: 30px 50px;
+  margin: 10px 50px;
 }
 
 .gallery img {
   transition: 1s;
-  padding; 50px;
+  padding: 50px;
   width: 500px;
 }
 
