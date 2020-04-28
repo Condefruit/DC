@@ -490,6 +490,13 @@ hr.major {
     margin-left: 25%;
 }
 
+.pod {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
 .col-d img {
     transition: 1s;
     padding: 1px;
@@ -498,6 +505,10 @@ hr.major {
 .col-d img:hover {
     filter: grayscale(60%);
     transform: scale(1.1);
+}
+
+.col-d img {
+    max-height: 400px;
 }
 
 .row>.col-4 {
