@@ -11,6 +11,91 @@
     <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
+<style>
+    .slider {
+        width: 800px;
+        height: 200px;
+        overflow: hidden;
+        margin: -30px auto;
+    }
+    
+    .slides {
+        width: 2000px;
+        animation: glisse 20s infinite;
+    }
+    
+    .slide {
+        max-width: 200px;
+        float: left;
+    }
+    
+    @keyframes glisse {
+        0% {
+            transform: translateX(+0px);
+        }
+        5% {
+            transform: translateX(+0px);
+        }
+        10% {
+            transform: translateX(-210px);
+        }
+        15% {
+            transform: translateX(-210px);
+        }
+        20% {
+            transform: translateX(-430px);
+        }
+        25% {
+            transform: translateX(-430px);
+        }
+        30% {
+            transform: translateX(-680px);
+        }
+        35% {
+            transform: translateX(-680px);
+        }
+        40% {
+            transform: translateX(-900px);
+        }
+        45% {
+            transform: translateX(-900px);
+        }
+        50% {
+            transform: translateX(-1150px);
+        }
+        55% {
+            transform: translateX(-1150px);
+        }
+        60% {
+            transform: translateX(-900px);
+        }
+        65% {
+            transform: translateX(-900px);
+        }
+        70% {
+            transform: translateX(-680px);
+        }
+        75% {
+            transform: translateX(-680px);
+        }
+        80% {
+            transform: translateX(-430px);
+        }
+        85% {
+            transform: translateX(-430px);
+        }
+        90% {
+            transform: translateX(-210px);
+        }
+        95% {
+            transform: translateX(-210px);
+        }
+        100% {
+            transform: translateX(0px);
+        }
+    }
+</style>
+
 <body class="is-preload">
 
     <!-- Wrapper -->
@@ -34,23 +119,27 @@
                     </ul>
                 </header>
 
-                <marquee align="center" height="100" scrolldelay="2" scrollamount="16" onmouseout="this.start()" onmouseover="this.stop()">
-                    <p><img border="0" src="test100.png" alt="" hspace="0">
-                        <img border="0" src="test100.png" alt="" hspace="0">
-                        <img border="0" src="test100.png" alt="" hspace="0">
-                        <img border="0" src="test100.png" alt="" hspace="0">
-                        <img border="0" src="test100.png" alt="" hspace="0">
-                        <img border="0" src="test100.png" alt="" hspace="0">
-                        <img border="0" src="test100.png" alt="" hspace="0">
-                        <img border="0" src="test100.png" alt="" hspace="0">
-                        <img border="0" src="test100.png" alt="" hspace="0">
-                        <img border="0" src="test100.png" alt="" hspace="0">
-                        <img border="0" src="test100.png" alt="" hspace="0"> </p>
-                </marquee>
-		    
-		   <h2>En construction...</h2>
 
-                <a href="homepage.html"> Comment ça marche? </a>
+                <section>
+                    <div class="slider">
+                        <div class="slides">
+                            <div class="slide"><span class="image fit"><a href="random.html"><img src="random_images/Paulb5.png";></a></span></div>
+                            <div class="slide"><img src="blanc.png" ;></div>
+                            <div class="slide"><span class="image fit"><a href="satire.html"><img src="satire_images/satirelallemand.png";></a></div></span>
+                                <div class="slide"><img src="blanc.png" ;></div>
+                                <div class="slide"><span class="image fit"><a href="padre.html"><img src="padre_images/padre12.png";></a></div></span>
+                                    <div class="slide"><img src="blanc.png" ;></div>
+                                    <div class="slide"><span class="image fit"><a href="physics.html"><img src="physique_images/electronp.png";></a></div></span>
+                                        <div class="slide"><img src="blanc.png" ;></div>
+                                        <div class="slide"><span class="image fit"><a href="other.html"><img src="olds_images/numérisation0021.jpg";></a></div></span>
+                                            <div class="slide"><img src="blanc.png" ;></div>
+                                            <div class="slide"><span class="image fit"><a href="gifs.html"><img src="gifs_images/lison.png";></a></div></span>
+                                                <div class="slide"><img src="blanc.png" ;></div>
+                                                <div class="slide"><span class="image fit"><a href="random.html"><img src="random_images/Paulb5.png";></a></div></span>
+                                                    <div class="slide"><img src="blanc.png" ;></div>
+                                                    <div class="slide"><span class="image fit"><a href="satire.html"><img src="satire_images/satirelallemand.png";></a></div></span>
+                                                    </div>
+                </section>
 
                 <!-- Section -->
                 <section>
@@ -62,36 +151,37 @@
                         <article>
                             <span class="icon fa-gem"></span>
                             <div class="content">
-                                <h3>Dessins à l'arrache</h3>
-                                <p>Ce qu'il se passe quand je ne sais pas quoi faire.</p>
+                                <h3>Dessins au fil de l'eau</h3>
+                                <p>Du dessin et pis c'est tout !</p>
                             </div>
                         </article>
                         <article>
                             <span class="icon solid fa-paper-plane"></span>
                             <div class="content">
-                                <h3>Physics</h3>
-                                <p>Physics in behind everything in our lifes, let's try to understand it in an easy way.</p>
+                                <h3>Physique</h3>
+                                <p>La physique, il y en a partout, essayons de la comprendre d'une manière simple.</p>
                             </div>
                         </article>
                         <article>
                             <span class="icon solid fa-rocket"></span>
                             <div class="content">
-                                <h3>Political satire</h3>
-                                <p>In this crazy world where richiest people get richer, poorest people get even poorer and we are not smart and bold enough to flip back the capitalism system, at least we can try criticize our government.</p>
+                                <h3>Satire politique</h3>
+                                <p>Dans ce monde fou où les plus riches deviennent encore plus riche, les pauvres encore plus pauvres et où nous ne sommes pas assez intelligents et audacieux pour changer le système, nous pouvons au moins essayer de critiquer
+                                    nos gouvernements.</p>
                             </div>
                         </article>
                         <article>
                             <span class="icon solid fa-signal"></span>
                             <div class="content">
                                 <h3>Padre Joannes</h3>
-                                <p>The non scripted story of a crazy young monk with extra habilities.</p>
+                                <p>Suivez la vie extraordinaire et non scriptée du père Joannes, un ecclésiaste un peu fou avec des capacités poussées.</p>
                             </div>
                         </article>
                         <article>
                             <span class="icon solid fa-rocket"></span>
                             <div class="content">
-                                <h3>Other stuff</h3>
-                                <p>Old stuff, random stuff, gifs and whatever.</p>
+                                <h3>Vielleries</h3>
+                                <p>Vielleries, dessins à l'arrache pendant les cours et autres gribouillages de jeunesse :)</p>
                             </div>
                         </article>
                     </div>
@@ -101,35 +191,35 @@
 
 
 
-            </div>
-        </div>
+                </div>
+                </div>
 
-        <!-- Sidebar -->
-        <div id="sidebar">
-            <div class="inner">
+                <!-- Sidebar -->
+                <div id="sidebar">
+                    <div class="inner">
 
-                <!-- Search -->
-                <section id="search" class="alt">
-                    <form method="post" action="#">
-                        <input type="text" name="query" id="query" placeholder="Search" />
-                    </form>
-                </section>
+                        <!-- Search -->
+                        <section id="search" class="alt">
+                            <form method="post" action="#">
+                                <input type="text" name="query" id="query" placeholder="Search" />
+                            </form>
+                        </section>
 
-                <!-- Menu -->
-                <nav id="menu">
-                    <header class="major">
-                        <h2>Menu</h2>
-                    </header>
-                    <ul>
-                        <li><a href="homepagefr.html">Homepage</a></li>
-                        <li><a href="randomfr.html">Random drawings</a></li>
-                        <li><a href="physicsfr.html">Physics</a></li>
-                        <li><a href="satirefr.html">Satire</a></li>
-                        <li><a href="padrefr.html">Padre Joannes</a></li>
-                        <li><a href="gifsfr.html">Gifs</a></li>
-                        <li><a href="otherfr.html">Old stuff</a></li>
+                        <!-- Menu -->
+                        <nav id="menu">
+                            <header class="major">
+                                <h2>Menu</h2>
+                            </header>
+                            <ul>
+                                <li><a href="homepagefr.html">Page d'acceuil</a></li>
+                                <li><a href="randomfr.html">Dessins au fil de l'eau</a></li>
+                                <li><a href="physicsfr.html">Physique</a></li>
+                                <li><a href="satirefr.html">Satire</a></li>
+                                <li><a href="padrefr.html">Padre Joannes</a></li>
+                                <li><a href="gifsfr.html">Gifs</a></li>
+                                <li><a href="otherfr.html">Vielleries</a></li>
 
-                        <!--	<li>
+                                <!--	<li>
 					<span class="opener">Submenu</span>
 						<ul>
 							<li><a href="#">Lorem Dolor</a></li>
@@ -138,7 +228,7 @@
 							<li><a href="#">Feugiat Veroeros</a></li>
 						</ul>
 							</li>  -->
-                        <!--	<li>
+                                <!--	<li>
 									<span class="opener">Another Submenu</span>
 									<ul>
 										<li><a href="#">Lorem Dolor</a></li>
@@ -152,38 +242,38 @@
                                         <li><a href="#">Amet Lacinia</a></li> -->
 
 
-                    </ul>
-                </nav>
+                            </ul>
+                        </nav>
 
-                <!-- Section -->
-                <section>
-                    <header class="major">
-                        <h2>Get in touch</h2>
-                    </header>
-                    <!--		<p>Hello.</p>		-->
-                    <ul class="contact">
-                        <li class="icon solid fa-envelope"><a href="#">danielchastanet@gmail.com</a></li>
-                        <!-- <li class="icon solid fa-phone">(000) 000-0000</li> -->
-                        <li class="icon solid fa-home"> Paris France <br /></li>
-                    </ul>
-                </section>
+                        <!-- Section -->
+                        <section>
+                            <header class="major">
+                                <h2>Contact</h2>
+                            </header>
+                            <!--		<p>Hello.</p>		-->
+                            <ul class="contact">
+                                <li class="icon solid fa-envelope"><a href="#">danielchastanet@gmail.com</a></li>
+                                <!-- <li class="icon solid fa-phone">(000) 000-0000</li> -->
+                                <li class="icon solid fa-home"> Paris France <br /></li>
+                            </ul>
+                        </section>
 
-                <!-- Footer -->
-                <footer id="footer">
-                    <p class="copyright">&copy; Untitled. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.<br /> html5up.net | @ajlkn <br /> Free for personal and commercial use under the CCA 3.0 license (html5up.net/license) </p>
-                </footer>
+                        <!-- Footer -->
+                        <footer id="footer">
+                            <p class="copyright">&copy; Tous droits réservé. Design: <a href="https://html5up.net">HTML5 UP</a>.<br /> html5up.net | @ajlkn <br /> Gratuit pour usage personnel et commercial sous la licence CCA 3.0 (html5up.net/license) </p>
+                        </footer>
 
-            </div>
-        </div>
+                    </div>
+                </div>
 
-    </div>
+                </div>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+                <!-- Scripts -->
+                <script src="assets/js/jquery.min.js"></script>
+                <script src="assets/js/browser.min.js"></script>
+                <script src="assets/js/breakpoints.min.js"></script>
+                <script src="assets/js/util.js"></script>
+                <script src="assets/js/main.js"></script>
 
 </body>
 
