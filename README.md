@@ -2,7 +2,7 @@
 All about m'illustrations
 
 Still testin
-<img scr="https://raymondehazan.files.wordpress.com/2011/03/rouge.png">
+<img src="https://raymondehazan.files.wordpress.com/2011/03/rouge.png">
 
 waiting...
 second test ... waiting... you'll be redirected
